@@ -6,9 +6,9 @@ let currentYear = currentTime.getFullYear();
 
 function Footer() {
   return (
-    <h3>
+    <p className="Pagefooter">
       Made with love by {myName} in {currentYear}
-    </h3>
+    </p>
   );
 }
 

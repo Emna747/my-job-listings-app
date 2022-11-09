@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&family=Xanh+Mono&display=swap");
 body {
   margin: 0;
   background-color: bisque;
@@ -6,11 +7,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff007b;
+  text-decoration: none;
 }
 
 h4 {
@@ -22,6 +33,78 @@ h2 {
 h3 {
   color: rgba(42, 219, 19, 0.774);
 }
-.conty {
-  border: 3px greenyellow solid;
+.Navtab {
+  border: 3px rgb(218, 49, 19) solid;
+  position: sticky;
+  top: 0px;
+  z-index: 28;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(36, 186, 197);
+}
+.Introduction {
+  border: #ff007b 3px solid;
+}
+.Aboutsection {
+  font-size: 45px;
+  font-family: "Xanh Mono", Arial, Helvetica, sans-serif;
+}
+.Annexesection {
+  text-decoration: none;
+}
+.Mainboard {
+  border: 2px black double;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Jobcard {
+  border: 3px rgb(223, 24, 24) solid;
+  background-color: bisque;
+  min-height: 250px;
+  max-width: 100px;
+}
+
+.thejobtitle {
+  color: aqua;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border: 3px aqua solid;
+}
+.thedepartment {
+  color: black;
+  font-size: 15px;
+  font-family: "Xanh Mono", Arial, Helvetica, sans-serif;
+  border: 3px black solid;
+}
+.thelocation {
+  color: green;
+  font-size: 15px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border: 3px green solid;
+}
+.thedescription {
+  color: blueviolet;
+  font-size: 15px;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  border: 3px blueviolet solid;
+}
+.thesalary {
+  color: pink;
+  font-size: 12px;
+  border: 3px pink solid;
+}
+.Pagefooter {
+  border: 3px rgb(218, 49, 19) solid;
+  position: static;
+  color: blue;
+  bottom: 1px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  z-index: 28;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(183, 228, 231);
 }
