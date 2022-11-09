@@ -9,7 +9,7 @@ function Content() {
         eius rerum, explicabo error repellat eos libero sed nisi tempora.
       </p>
       <img
-        src="src\components\Thephoto.jpg"
+        src="https://images.pexels.com/photos/796602/pexels-photo-796602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         className="Thephoto"
         alt="clocks indcating diffrent times"
       />

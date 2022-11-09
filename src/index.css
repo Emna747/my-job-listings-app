@@ -24,26 +24,15 @@ a:hover {
   text-decoration: none;
 }
 
-h4 {
-  color: red;
-}
-h2 {
-  color: aqua;
-}
-h3 {
-  color: rgba(42, 219, 19, 0.774);
-}
 .Navtab {
   border: 3px rgb(218, 49, 19) solid;
   position: sticky;
   top: 0px;
   z-index: 28;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-content: center;
   background-color: rgb(36, 186, 197);
 }
+
 .Introduction {
   border: #ff007b 3px solid;
 }
@@ -53,6 +42,8 @@ h3 {
 }
 .Annexesection {
   text-decoration: none;
+  text-align: right;
+  color: rgb(196, 196, 54);
 }
 .Mainboard {
   border: 2px black double;

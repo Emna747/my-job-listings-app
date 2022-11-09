@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Content from "./Content";
 import Card from "./Card";
 import Footer from "./Footer";
-import database from "../../database";
+import database from "./database";
 
 function App() {
   return (
