@@ -4,9 +4,10 @@ function Navbar() {
   return (
     <div className="Navtab">
       <h1 className="Websitename">DigiEmploy</h1>
-      <ul className="Annexesection">
-        <li>Post a Job</li> <li> Contact Us</li>{" "}
-      </ul>
+      {/*<ul>
+        <li className="Annexesection">Post a Job</li>{" "}
+        <li className="Annexesection"> Contact Us</li>
+      </ul>*/}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&family=Xanh+Mono&display=swap");
 body {
   margin: 0;
-  background-color: bisque;
+  background-color: rgb(200, 237, 240);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -25,39 +25,48 @@ a:hover {
 }
 
 .Navtab {
-  border: 3px rgb(218, 49, 19) solid;
   position: sticky;
   top: 0px;
+  height: 4rem;
   z-index: 28;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   background-color: rgb(36, 186, 197);
 }
 
-.Introduction {
-  border: #ff007b 3px solid;
-}
-.Aboutsection {
-  font-size: 45px;
+.Websitename {
   font-family: "Xanh Mono", Arial, Helvetica, sans-serif;
+  font-size: 2.7rem;
+  color: bisque;
+  display: inline;
 }
-.Annexesection {
-  text-decoration: none;
-  text-align: right;
-  color: rgb(196, 196, 54);
+
+.Introduction {
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.Aboutsection {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6rem;
+
+  font-family: "Xanh Mono", Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+.Thephoto {
+  width: 100%;
+  height: 350px;
 }
 .Mainboard {
-  border: 2px black double;
+  border: 2px black solid;
   display: grid;
-  gap: 2rem;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 .Jobcard {
   border: 3px rgb(223, 24, 24) solid;
   background-color: bisque;
-  min-height: 250px;
-  max-width: 100px;
 }
-
 .thejobtitle {
   color: aqua;
   font-size: 20px;
@@ -83,10 +92,11 @@ a:hover {
   border: 3px blueviolet solid;
 }
 .thesalary {
-  color: pink;
+  color: black;
   font-size: 12px;
   border: 3px pink solid;
 }
+
 .Pagefooter {
   border: 3px rgb(218, 49, 19) solid;
   position: static;
@@ -97,5 +107,5 @@ a:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-color: rgb(183, 228, 231);
+  background-color: rgb(200, 237, 240);
 }
