@@ -7,7 +7,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
 }
 
 code {
@@ -59,13 +58,16 @@ a:hover {
   width: 100%;
   height: 350px;
 }
-.Mainboard {
+.Main {
   border: 2px black solid;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
 }
 .Jobcard {
   border: 3px rgb(223, 24, 24) solid;
   background-color: bisque;
+  width: 80%;
 }
 .thejobtitle {
   color: aqua;
