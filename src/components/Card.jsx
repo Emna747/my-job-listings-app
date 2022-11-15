@@ -3,7 +3,7 @@ import React from "react";
 //basically card which is the componenet is the props within the function
 function Card(props) {
   return (
-    <div className="Main">
+ 
       <div className="Mainboard">
         <div className="Jobcard">
           <h3 className="thejobtitle">{props.JobTitle}</h3>
@@ -13,7 +13,7 @@ function Card(props) {
           <p className="thesalary">{props.Salary}</p>
         </div>
       </div>
-    </div>
+
   );
 }
 
